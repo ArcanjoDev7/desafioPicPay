@@ -1,7 +1,7 @@
-package com.miguel.demo.transaction;
+package com.miguel.demo.domain.transaction;
 
 
-import com.miguel.demo.user.User;
+import com.miguel.demo.domain.user.User;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -20,11 +20,13 @@ public class Transaction {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private BigDecimal amount;
 
     @ManyToOne
     @JoinColumn(name = "payer_id")
     private User payer;
+
     @ManyToOne
     @JoinColumn(name = "payee_id")
     private User payee;

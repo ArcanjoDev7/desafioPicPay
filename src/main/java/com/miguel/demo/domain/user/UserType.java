@@ -1,4 +1,4 @@
-package com.miguel.demo.user;
+package com.miguel.demo.domain.user;
 
 public enum UserType {
 

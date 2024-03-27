@@ -1,8 +1,8 @@
 package com.miguel.demo.controller;
 
 import com.miguel.demo.services.UserService;
-import com.miguel.demo.user.User;
-import com.miguel.demo.user.UserDTO;
+import com.miguel.demo.domain.user.User;
+import com.miguel.demo.domain.user.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
