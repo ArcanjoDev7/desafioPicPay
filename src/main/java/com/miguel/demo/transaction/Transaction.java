@@ -1,5 +1,6 @@
 package com.miguel.demo.transaction;
 
+
 import com.miguel.demo.user.User;
 import jakarta.persistence.*;
 import lombok.*;
